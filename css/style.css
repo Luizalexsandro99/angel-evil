@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+/*font-family: 'Koulen', cursive; */
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@media (max-width:500px){
+
+    body{
+        background-color: black;
+    }
+
+    header {
+        background-color: black;
+        height: 140px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.733);
+    }
+
+    header > h1 {
+        font-size: 3.5rem;
+        text-align: center;
+        text-shadow: 2px 3px 3px rgba(255, 0, 0, 0.418);
+        color: rgb(221, 2, 2);
+        font-family: 'Koulen', cursive;
+    }
+
+    header > h2 {
+        color: rgb(221, 2, 2);
+        font-size: 0.7rem;
+        text-align: center;
+        margin-top: -26px;
+        opacity: 0.8;
+    }
+
+    #imgf {
+        background-size: cover;
+        width: 100%;
+    }
+
+    ul {
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    li {
+        display: inline-block;
+        color: rgb(221, 2, 2);
+        padding: 5px;
+        font-family: 'Koulen', cursive; 
+        font-size: 1rem;
+    }
+
+    li:hover{
+        color: brown;
+        cursor: pointer;
+    }
+
+    button {
+        font-size: 3rem;
+        display: block;
+        margin: auto;
+        margin-top: 55%;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+        box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.411);
+    }
+}
+
+@media (min-width:501px){
+    header {
+        background-color: black;
+        height: 135px;
+        padding-top: 39px;
+        box-sizing: border-box;
+    }
+
+    header > h1 {
+        font-size: 3.5rem;
+        margin-left: 350px;
+        color: rgb(221, 2, 2);
+        font-family: 'Koulen', cursive;
+    }
+
+    header > h2 {
+        display: none;
+    }
+
+    span {
+        position: absolute;
+        margin-top: -47px;
+        margin-left: -15px ;
+    }
+
+    ul {
+        margin-left: 830px;
+        margin-top: -98px;
+        margin-right: 300px;
+    }
+
+    li {
+        display: inline-block;
+        color: rgb(221, 2, 2);
+        padding: 15px;
+        font-family: 'Koulen', cursive; 
+        font-size: 1.3rem;
+    }
+}

@@ -87,6 +87,43 @@
         text-align: center;
         margin-top: 50px;
     }
+
+    .p1pag2 {
+        font-size: 15px;
+        text-align: justify;
+        margin: 15px;
+        text-indent: 10px;
+        margin-top: 30px;
+    }
+
+    .p1pag2:hover{
+        font-size: 22px;
+    }
+
+    .paragmald {
+        color: red;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .futuro {
+        background-color: red;
+        display: block;
+        margin: auto;
+        margin-top: 35px;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .imagem-cruz {
+        width: 380px;
+        margin: auto;
+        margin-top: 30px;
+    }
 }
 
 @media (min-width:481px) and (max-width:900px){
@@ -176,6 +213,36 @@
         margin-bottom: 20px;
         font-size: 1.6rem;
         cursor: pointer;
+    }
+
+    .p1pag2 {
+        text-align: justify;
+        margin: 20px;
+    }
+
+    .futuro {
+        width: 80%;
+        display: block;
+        margin: auto;
+        background-color: red;
+        padding: 8px;
+        border-radius: 8px;
+        color: black;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+    .paragmald {
+        color: red;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #cruz {
+        display: block;
+        margin: auto;
     }
 }
 
@@ -267,6 +334,36 @@
         font-size: 1.6rem;
         cursor: pointer;
     }
+
+    .p1pag2 {
+        text-align: justify;
+        margin: 35px;
+    }
+
+    .paragmald {
+        color: red;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .futuro {
+        width: 80%;
+        display: block;
+        margin: auto;
+        background-color: red;
+        padding: 8px;
+        border-radius: 8px;
+        color: black;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    #cruz {
+        display: block;
+        margin: auto;
+    }
 }
 
 @media (min-width:1101px) and (max-width:1400px) {
@@ -283,7 +380,7 @@
 
     header > h1 {
         font-size: 3.5rem;
-        margin-left: 28%;
+        margin-left: 25%;
         color: rgb(221, 2, 2);
         font-family: 'Koulen', cursive;
     }
@@ -355,6 +452,37 @@
         margin-bottom: 20px;
         font-size: 1.6rem;
         cursor: pointer;
+    }
+
+    .p1pag2 {
+        text-align: center;
+        margin: 35px;
+        line-height: 23px;
+    }
+
+    .paragmald {
+        color: red;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .futuro {
+        width: 80%;
+        display: block;
+        margin: auto;
+        background-color: red;
+        padding: 8px;
+        border-radius: 8px;
+        color: black;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    #cruz {
+        display: block;
+        margin: auto;
     }
 }
 
@@ -446,4 +574,52 @@
         font-size: 1.6rem;
         cursor: pointer;
     }
+
+    .p1pag2 {
+        text-align: center;
+        margin: 35px;
+        line-height: 23px;
+    }
+
+    .paragmald {
+        color: red;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .futuro {
+        width: 80%;
+        display: block;
+        margin: auto;
+        background-color: red;
+        padding: 8px;
+        border-radius: 8px;
+        color: black;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    #cruz {
+        display: block;
+        margin: auto;
+    }
+}
+
+.acessoImagem {
+    cursor: pointer;
+}
+
+.link1 {
+    text-decoration: none;
+}
+
+.menu {
+    cursor: pointer;
+    background-color: red;
+}
+
+.p1pag2{
+    color: red;
 }
